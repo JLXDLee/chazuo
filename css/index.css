@@ -180,19 +180,25 @@
 	margin-bottom: 20px;
 	background-color: #FFFFFF;
 }
+.newItem:hover, .newItem:active{
+	box-shadow: 5px 5px 2.5px #9797bd;
+}
 .niImg{
 	float: left;
 	width: 220px;
 	height: 135px;
+	cursor: pointer;
 }
 .niCtn{
 	position: relative;
 	height: 131px;
-	padding: 2px 0px 2px 244px;
+	padding: 2px 0px 2px 0px;
+	margin-left: 244px;
 }
 .nicTitle{
 	font-size: 18px;
 	color: #3D3D3D;
+	cursor: pointer;
 }
 .nicCtn {
 	font-size: 16px;
@@ -213,7 +219,7 @@
 .nicfTime{
 	position: absolute;
 	bottom: 0px;
-	left: 659px;
+	left: 415px;
 	padding-left: 32px;
 	background: url(../images/time.png) no-repeat left center;
 }
@@ -308,21 +314,29 @@
 	border-top: 1px solid #EFEFF4;
 	padding: 14px 0px;
 }
+.classItem:hover, .classItem:active{
+	box-shadow: 5px 5px 2.5px #f8f8fd;
+}
 .ciImg{
 	float: left;
 	width: 144px;
 	height: 104px;
+	cursor: pointer;
 }
 .ciCtn{
 	position: relative;
 	height: 104px;
-	padding: 0px 0px 0px 172px;
+	margin: 0px 0px 0px 172px;
 }
 .cicTitle{
 	font-size: 16px;
 	color: #3D3D3D;
 	max-height: 42px;
 	overflow: hidden;
+	cursor: pointer;
+}
+.ciCtn{
+	position: relative;
 }
 .cicCtn {
 	font-size: 14px;
