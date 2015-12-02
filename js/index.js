@@ -18,8 +18,9 @@ $(function(){
 			$(".menuBtn.left").css("display", "block");
 			return;
 		}
+		var ml = - i * 180 + "px";
 		$(".menuList").animate({
-			"marginLeft": - i * 180 + "px"
+			"marginLeft": ml
 		});
 		i++;
 	});
@@ -32,9 +33,9 @@ $(function(){
 			$(".menuBtn.right").css("display", "block");
 			return;
 		}
-		var ml = parseInt($(".menuList").css("margin-left"));
+		var ml = parseInt($(".menuList").css("margin-left")) + 180 + "px";
 		$(".menuList").animate({
-			"marginLeft": ml + 180 + "px"
+			"marginLeft": ml
 		});
 		i--;
 	});
