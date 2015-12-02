@@ -226,11 +226,16 @@
 #loadMore, #loadMore1{
 	width: 100%;
 	text-align: center;
-	padding: 14px 0px;
 	font-size: 16px;
 	color: #34495D;
 	background-color: #FFFFFF;
 	cursor: pointer;
+}
+#loadMore{
+	padding: 14px 0px;
+}
+#loadMore1{
+	margin: 14px 0px;
 }
 .loadMore{
 	padding-right: 24px;
@@ -265,6 +270,7 @@
 #rightNav{
 	float: right;
 	width: 360px;
+	background-color: #FFFFFF;
 }
 #rMenu{
 	width: 100%;
@@ -307,11 +313,14 @@
 }*/
 /*课程*/
 #classList{
-	background-color: #FFFFFF;
 	padding: 0px 12px;
 }
-.classItem{
+.clLine{
 	border-top: 1px solid #EFEFF4;
+	height: 0px;
+}
+.classItem{
+	border-bottom: 1px solid #EFEFF4;
 	padding: 14px 0px;
 }
 .classItem:hover, .classItem:active{
