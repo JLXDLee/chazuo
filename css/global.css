@@ -1,0 +1,115 @@
+@CHARSET "UTF-8";
+
+/* =================================================================== 
+@set browser style:清除浏览器默认样式
+ ================================= */
+html,body,h1,h2,h3,h4,h5,h6,hr,div,p,dl,dt,dd,ul,ol,li,form,fieldset,legend,button,input,textdevision,select,table,tr,th,td,pre,sup,address,cite,dfn,em,var,blockquote {
+	margin: 0;
+	padding: 0;
+	word-break: normal;
+	border: 0px;
+}
+html {
+	min-height: 100%;
+	min-width: 1200px;
+	border: none;
+}
+body {
+	font-size: 12px;
+	font-family: "Microsoft YaHei", 微软雅黑, simhei;
+	background-color: #efeff4;
+	/*color: #666666;*/
+	/*word-wrap: break-word;
+	word-break: break-all;*/
+	width: 100%;
+}
+address, cite, dfn, em, var {
+	font-style: normal;
+}
+img {
+	border: none;
+	vertical-align: middle;
+}
+ul, ol {
+	list-style-type: none;
+}
+button, input, select, textdevision {
+	outline: none;
+	border: 1px solid black;
+}
+button, input, select {
+	vertical-align: middle;
+}
+textdevision {
+	resize: none;
+}
+table {
+	border-collapse: separate;
+}
+input,select {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #cfcfcf;
+}
+.clear {
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	clear: both;
+	height: 0px;
+	width: 100%;
+	list-style: none;
+}
+#container {
+	width: 1200px;
+	margin: 32px auto 100px;
+}
+header, footer{
+	display: block;
+}
+/**
+ * 头部 
+ */
+[header]{
+	width: 100%;
+	height: 80px;
+	background-color: #FFFFFF;
+}
+#header{
+	width: 1200px;
+	height: 100%;
+	margin: 0px auto;
+}
+/**
+ * 底部
+ */
+[footer]{
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	color: #B0BDC7;
+	text-align: center;
+	background-color: #e4e4eb;
+	font-size: 14px;
+}
+/**
+ * 垂直居中
+ */
+.vAlign {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+/**
+ * 颜色
+ */
+.c1{color: #34495D;}/*(52,73,93)*/
+.c2{color: #B0BDC7;}/*(176,189,199)*/
+.c3{color: #3D3D3D;}/*(61,61,61)*/
+.c4{color: #DCDCE4;}/*(220,220,228)*/
+.c5{color: #B06DC7;}/*(176,109,199)*/
+.c6{color: #3978C3;}/*(57,120,195)*/
