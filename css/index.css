@@ -216,21 +216,28 @@
 	padding-right: 24px;
 	background: url(../images/more.png) no-repeat right center;
 }
-#loaded{
+#loaded, #loaded1{
 	font-size: 16px;
 	color: #DCDCE4;
+	display: none;
 }
-.loaded>div{
+.loaded>div, .loaded1>div{
 	float: left;
 }
-.loadedLine{
-	width: 322px;
+.loadedLine, .loadedLine1{
 	height: 0px;
 	border-bottom: 1px solid #DCDCE4;
 	margin-top: 28px;
 }
+.loadedLine{
+	width: 322px;
+}
+.loadedLine1{
+	width: 76px;
+}
 .loadedCtn{
 	margin: 20px 24px 0px;
+	line-height: 16px;
 }
 /**
  * 正文右侧

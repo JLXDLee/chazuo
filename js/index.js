@@ -1,5 +1,15 @@
 $(function(){
+	//线上、线下课程
 	$("#rMenu>div").hover(function(){
 		$(this).addClass("rmcActive").siblings().removeClass("rmcActive");
+	});
+	//加载更多
+	$("#loadMore").click(function(){
+		$(this).hide();
+		$("#loaded").show();
+	});
+	$("#loadMore1").click(function(){
+		$(this).hide();
+		$("#loaded1").show();
 	});
 });
