@@ -1,4 +1,9 @@
 $(function(){
+	//导航切换
+	$(".menuItem").click(function(){
+		var _s = $(this);
+		_s.addClass("active").siblings().removeClass("active");
+	});
 	//线上、线下课程
 	$("#rMenu>div").hover(function(){
 		$(this).addClass("rmcActive").siblings().removeClass("rmcActive");
