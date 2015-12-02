@@ -133,8 +133,14 @@
 	width: 100px;
 	height: 48px;
 	float: right;
-	background: url(../images/right.png) no-repeat center center;
 	cursor: pointer;
+}
+.menuBtn.left{
+	display: none;
+	background: url(../images/left.png) no-repeat center center;
+}
+.menuBtn.right{
+	background: url(../images/right.png) no-repeat center center;
 }
 .menuItem{
 	float: left;
