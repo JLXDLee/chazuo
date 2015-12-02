@@ -246,6 +246,9 @@
 	color: #DCDCE4;
 	display: none;
 }
+#loaded1{
+	background-color: #efeff4;
+}
 .loaded>div, .loaded1>div{
 	float: left;
 }
