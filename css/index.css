@@ -371,6 +371,12 @@
 #clientCode {
     position: absolute;
     display: none;
+    padding: 19px;
+    background-color: #fff;
+    z-index: 9;
+    top: 80px;
+    left: -1px;
+	border: 1px solid #EFEFF4;
 }
 #clientCode:before {
 	width: 10px;
@@ -383,13 +389,6 @@
 	border-width: 1px 1px 0 0;
 	position: absolute;
 	top: -6px;
-	left: 65px;
+	left: 64px;
 	content: " ";
-}
-#clientCode {
-    padding: 19px;
-    background-color: #fff;
-    z-index: 9;
-    top: 80px;
-	border: 1px solid #EFEFF4;
 }
