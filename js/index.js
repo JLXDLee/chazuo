@@ -1,4 +1,4 @@
-var cliend_url = "http://www.jlxdlee.com";
+var cliend_url = "http://www.jlxdlee.site";	//配置客户端下载地址
 $(function(){
 	var l = $(".menuItem").length;	//导航菜单数量
 	$(".menuList").width(l * 180 + "px");
