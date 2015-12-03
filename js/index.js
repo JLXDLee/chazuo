@@ -10,7 +10,9 @@ $(function(){
 	//导航滚动
 	var i = 1;
 	var c = l - 4;	//可点击次数
+	var ml = '0px';
 	$(".menuBtn.right").click(function(){
+		$(".menuList").css("margin-left", ml);
 		if(i == c){
 			$(this).css("display", "none");
 			$(".menuBtn.left").css("display", "block");
@@ -19,13 +21,14 @@ $(function(){
 			$(".menuBtn.left").css("display", "block");
 			return;
 		}
-		var ml = - i * 180 + "px";
+		ml = - i * 180 + "px";
 		$(".menuList").animate({
 			"marginLeft": ml
 		});
 		i++;
 	});
 	$(".menuBtn.left").click(function(){
+		$(".menuList").css("margin-left", ml);
 		if(i == 2){
 			$(this).css("display", "none");
 			$(".menuBtn.right").css("display", "block");
@@ -34,7 +37,7 @@ $(function(){
 			$(".menuBtn.right").css("display", "block");
 			return;
 		}
-		var ml = parseInt($(".menuList").css("margin-left")) + 180 + "px";
+		ml = parseInt($(".menuList").css("margin-left")) + 180 + "px";
 		$(".menuList").animate({
 			"marginLeft": ml
 		});
