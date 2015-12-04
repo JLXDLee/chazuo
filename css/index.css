@@ -1,5 +1,13 @@
 @CHARSET "UTF-8";
 /**
+ * common css
+ */
+.img1, .img2, .img3, .img4{
+	width: 0px;
+	height: 0px;
+	display: none;
+}
+/**
  * header
  */
 #header{
@@ -44,7 +52,7 @@
 	background: url(../images/signin.png) no-repeat left center;
 	background-size: 100%;
 }
-#log_reg:hover>.log_reg:before, #log_reg:active>.log_reg:before {
+#log_reg:hover>.log_reg:before, #log_reg:active>.log_reg:before, .img1 {
 	background: url(../images/sign_active.png) no-repeat left center;
 }
 .client:before{
@@ -53,7 +61,7 @@
 	background: url(../images/download.png) no-repeat left center;
 	background-size: 100%;
 }
-#client:hover>.client:before, #client:active>.client:before {
+#client:hover>.client:before, #client:active>.client:before, .img2 {
 	background: url(../images/download_active.png) no-repeat left center;
 }
 .wxmp:before{
@@ -62,7 +70,7 @@
 	background: url(../images/wechat.png) no-repeat left center;
 	background-size: 100%;
 }
-#wxmp:hover>.wxmp:before, #wxmp:active>.wxmp:before {
+#wxmp:hover>.wxmp:before, #wxmp:active>.wxmp:before, .img3 {
 	background: url(../images/wechat_active.png) no-repeat left center;
 }
 #log_reg, #client, #wxmp{
@@ -108,7 +116,7 @@
 	height: 24px;
 	background: url(../images/searching.png) no-repeat center center;
 }
-.hSearchBtn:hover, .hSearchBtn:active{
+.hSearchBtn:hover, .hSearchBtn:active, .img4 {
 	background: url(../images/searching_active.png) no-repeat center center;
 }
 /**
