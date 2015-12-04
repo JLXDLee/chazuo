@@ -1,3 +1,4 @@
+var cliend_url = "http://www.jlxdlee.site";	//配置客户端下载地址
 $(function(){
 	var l = $(".menuItem").length;	//导航菜单数量
 	$(".menuList").width(l * 180 + "px");
@@ -9,7 +10,9 @@ $(function(){
 	//导航滚动
 	var i = 1;
 	var c = l - 4;	//可点击次数
+	var ml = '0px';
 	$(".menuBtn.right").click(function(){
+		$(".menuList").css("margin-left", ml);
 		if(i == c){
 			$(this).css("display", "none");
 			$(".menuBtn.left").css("display", "block");
@@ -18,13 +21,14 @@ $(function(){
 			$(".menuBtn.left").css("display", "block");
 			return;
 		}
-		var ml = - i * 180 + "px";
+		ml = - i * 180 + "px";
 		$(".menuList").animate({
 			"marginLeft": ml
 		});
 		i++;
 	});
 	$(".menuBtn.left").click(function(){
+		$(".menuList").css("margin-left", ml);
 		if(i == 2){
 			$(this).css("display", "none");
 			$(".menuBtn.right").css("display", "block");
@@ -33,7 +37,7 @@ $(function(){
 			$(".menuBtn.right").css("display", "block");
 			return;
 		}
-		var ml = parseInt($(".menuList").css("margin-left")) + 180 + "px";
+		ml = parseInt($(".menuList").css("margin-left")) + 180 + "px";
 		$(".menuList").animate({
 			"marginLeft": ml
 		});
@@ -52,4 +56,19 @@ $(function(){
 		$(this).hide();
 		$("#loaded1").show();
 	});
+	//客户端
+	createClientCode();
+	$("#client").mouseover(function(){
+		$("#clientCode").show();
+	}).mouseout(function(){
+		$("#clientCode").hide();
+	});
 });
+//生成客户端下载二维码
+function createClientCode(){
+	var qrcode = new QRCode(document.getElementById("ccCodeImg"), {
+		width: 90, //设置宽高
+		height: 90
+	});
+	qrcode.makeCode(cliend_url);
+}
