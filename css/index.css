@@ -208,8 +208,10 @@
 }
 .niCtn{
 	position: relative;
-	height: 131px;
-	padding: 2px 0px 2px 0px;
+	/*height: 131px;
+	padding: 2px 0px;*/
+	height: 133px;
+	padding: 0px 0px 2px;
 	margin-left: 244px;
 }
 .nicTitle{
