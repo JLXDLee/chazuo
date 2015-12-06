@@ -6,6 +6,9 @@
 	background-color: #FFFFFF;
 	color: #3D3D3D;
 }
+#loadMore{
+	border-top: 1px solid #EFEFF4;
+}
 .atcTitle{
 	font-size: 22px;
 	font-weight: bold;
@@ -47,10 +50,11 @@
 	line-height: 30px;
 	margin-bottom: 30px;
 }
-.shareWx{
+.shareWx, .enrollClass{
+	position: relative;
 	margin: 30px 0px 64px;
 }
-.swButton{
+.swButton, .ecButton{
 	font-size: 18px;
 	width: 118px;
 	height: 56px;
@@ -72,7 +76,17 @@
 	left: 28px;
 	background-size: 100%;
 }
-.swButton:hover{
+.ecButton:before{
+	content: " ";
+	position: absolute;
+	background: url(../images/enroll.png) no-repeat left center;
+	width: 21px;
+	height: 24px;
+	top: 16px;
+	left: 28px;
+	background-size: 100%;
+}
+.swButton:hover, .ecButton:hover{
 	background-color: #4DB151;
 }
 .actComment{
@@ -101,6 +115,25 @@
 }
 .actcTips>span{
 	color: #FAAA00;
+}
+.shareToWx:before{
+	content: " ";
+	position: absolute;
+	background: url(../images/wechat_blue.png) no-repeat center center;
+	top: 4px;
+	left: 0px;
+	width: 46px;
+	height: 46px;
+	border: 1px solid #34495D;
+	border-radius: 50%;
+}
+.shareToWx{
+	position: absolute;
+	color: #B0BDC7;
+	padding-left: 58px;
+	line-height: 56px;
+	font-size: 14px;
+	cursor: pointer;
 }
 #postComments{
 	position: absolute;
