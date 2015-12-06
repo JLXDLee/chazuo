@@ -1,0 +1,232 @@
+@CHARSET "UTF-8";
+
+#content{
+	width: 740px;
+	padding: 0px 40px;
+	background-color: #FFFFFF;
+	color: #3D3D3D;
+}
+.atcTitle{
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 48px;
+}
+.atcSubTitle{
+	margin: 24px 0px 32px;
+	font-size: 16px;
+	color: #B0BDC7;
+	position: relative;
+}
+.astTab{
+	padding-left: 32px;
+	background: url(../images/tab.png) no-repeat left center;
+}
+.astTime{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	padding-left: 32px;
+	background: url(../images/time.png) no-repeat left center;
+}
+.atcImg{
+	margin-bottom: 24px;
+}
+.atcImg>img{
+	width: 740px;
+	height: auto;
+}
+.actSection{
+	text-indent: 2em;
+	font-size: 16px;
+	line-height: 30px;
+	margin-bottom: 30px;
+}
+.actMinTitle{
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 30px;
+	margin-bottom: 30px;
+}
+.shareWx{
+	margin: 30px 0px 64px;
+}
+.swButton{
+	font-size: 18px;
+	width: 118px;
+	height: 56px;
+	line-height: 56px;
+	margin: 0px auto;
+	padding-left: 66px;
+	background-color: #3978C3;
+	color: #FFFFFF;
+	position: relative;
+	cursor: pointer;
+}
+.swButton:before{
+	content: " ";
+	position: absolute;
+	background: url(../images/wechat_white.png) no-repeat left center;
+	width: 28px;
+	height: 24px;
+	top: 16px;
+	left: 28px;
+	background-size: 100%;
+}
+.swButton:hover{
+	background-color: #4DB151;
+}
+.actComment{
+	width: 706px;
+	height: 178px;
+	font-size: 16px;
+	line-height: 30px;
+	color: #34495D;
+	padding: 20px 16px 0;
+	resize: none;
+	outline: none;
+	border: 1px solid #DFDFDF;
+}
+.actComment:hover{
+	-webkit-box-shadow: 0px 0px 5px rgba(151,151,189,0.5);
+	-moz-box-shadow: 0px 0px 5px rgba(151,151,189,0.5);
+	box-shadow: 0px 0px 5px rgba(151,151,189,0.5);
+}
+.actcTips{
+	font-size: 14px;
+	margin-top: 16px;
+	color: #B0BDC7;
+	height: 32px;
+	margin-bottom: 48px;
+	position: relative;
+}
+.actcTips>span{
+	color: #FAAA00;
+}
+#postComments{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 72px;
+	height: 32px;
+	font-size: 16px;
+	line-height: 32px;
+	background-color: #3978C3;
+	color: #FFFFFF;
+	text-align: center;
+	cursor: pointer;
+}
+.commentItem{
+	margin-bottom: 40px;
+}
+.clPhoto{
+	float: left;
+	width: 56px;
+	height: 56px;
+}
+ .clPhoto>img{
+	width: 100%;
+	height: 100%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+.clCtn{
+	width: 500px;
+	min-height: 56px;
+	margin-left: 80px;
+}
+.clcTitle{
+	color: #B0BDC7;
+	margin-bottom: 7px;
+}
+.clcUser{
+	font-size: 16px;
+	font-weight: bold;
+}
+.clcTime{
+	font-size: 14px;
+	margin-left: 16px;
+}
+.clcCtn{
+	font-size: 16px;
+	line-height: 30px;
+}
+.mayInterested{
+	padding: 32px 0 18px 0;
+	background-color: #efeff4;
+	width: 820px;
+	margin-left: -40px;
+	font-size: 18px;
+	color: #B0BDC7;
+}
+/*可能感兴趣其他文章*/
+.miList{
+	width: 820px;
+	margin-left: -40px;
+}
+.miItem{
+	width: 772px;
+	height: 135px;
+	padding: 30px 24px;
+	background-color: #FFFFFF;
+}
+.miItem:hover, .miItem:active{
+	-webkit-box-shadow: 0px 0px 5px rgba(151,151,189,0.5);
+	-moz-box-shadow: 0px 0px 5px rgba(151,151,189,0.5);
+	box-shadow: 0px 0px 5px rgba(151,151,189,0.5);
+}
+.miImg{
+	float: left;
+	width: 220px;
+	height: 135px;
+	cursor: pointer;
+	display: block;
+}
+.miCtn{
+	position: relative;
+	/*height: 131px;
+	padding: 2px 0px;*/
+	height: 133px;
+	padding: 0px 0px 2px;
+	margin-left: 244px;
+}
+.micTitle{
+	position: relative;
+	display: block;
+	font-size: 18px;
+	color: #3D3D3D;
+	cursor: pointer;
+	height: 24px;
+	overflow: hidden;
+}
+.mictTips:after{
+	content: " ";
+	position: absolute;
+	background: url(../images/article.png) no-repeat 14px center;
+	width: 78px;
+	height: 24px;
+	padding-left: 14px;
+}
+.micCtn {
+	font-size: 16px;
+	color: #B0BDC7;
+	margin: 18px 0px;
+	height: 52px;
+	line-height: 26px;
+	overflow: hidden;
+}
+.micFtr{
+	font-size: 16px;
+	color: #B0BDC7;
+}
+.micfTab{
+	padding-left: 32px;
+	background: url(../images/tab.png) no-repeat left center;
+}
+.micfTime{
+	position: absolute;
+	bottom: 0px;
+	left: 415px;
+	padding-left: 32px;
+	background: url(../images/time.png) no-repeat left center;
+}

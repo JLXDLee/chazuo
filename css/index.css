@@ -38,7 +38,7 @@
 .menuItem>span:hover, .menuItem>span:active{
 	color: #3978C3;
 }
-.menuItem.active, .rmcActive{
+.menuItem.active{
 	color: #3978C3;
 	position: relative;
 }

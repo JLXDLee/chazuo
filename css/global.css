@@ -238,6 +238,10 @@ a{
 	color: #34495D;
 	background-color: #FFFFFF;
 }
+.rmcActive {
+    color: #3978C3;
+    position: relative;
+}
 .rmClass1{
 	float: left;
 	cursor: pointer;
@@ -408,6 +412,9 @@ a{
 .c4{color: #DCDCE4;}/*(220,220,228)*/
 .c5{color: #B06DC7;}/*(176,109,199)*/
 .c6{color: #3978C3;}/*(57,120,195)*/
+.c7{color: #4DB151;}/*(77,177,81)*/
+.c8{color: #DFDFDF;}/*(223,223,223)*/
+.c9{color: #FAAA00;}/*(250,170,0)*/
 
 /**
  * 边框圆角 
@@ -421,4 +428,14 @@ a{
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
+}
+.brds4{
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+.brds28{
+	-moz-border-radius: 28px;
+	-webkit-border-radius: 28px;
+	border-radius: 28px;
 }
