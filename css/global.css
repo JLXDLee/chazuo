@@ -18,9 +18,8 @@ body {
 	font-size: 12px;
 	font-family: "Microsoft YaHei", 微软雅黑, simhei;
 	background-color: #efeff4;
-	/*color: #666666;*/
-	/*word-wrap: break-word;
-	word-break: break-all;*/
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 	width: 100%;
 }
 address, cite, dfn, em, var {
