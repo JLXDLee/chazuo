@@ -7,11 +7,6 @@ function onloadEvt(){
 	$("#rMenu>div").hover(function(){
 		$(this).addClass("rmcActive").siblings().removeClass("rmcActive");
 	});
-	//加载更多
-	$("#loadMore1").click(function(){
-		$(this).hide();
-		$("#loaded1").show();
-	});
 	//客户端
 	createClientCode();
 	$("#client").mouseover(function(){

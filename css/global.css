@@ -338,6 +338,10 @@ a{
 	padding-right: 24px;
 	background: url(../images/more.png) no-repeat right center;
 }
+.changeNext{
+	padding-right: 24px;
+	background: url(../images/more.png) no-repeat right center;
+}
 #loaded, #loaded1{
 	font-size: 16px;
 	color: #DCDCE4;
@@ -415,6 +419,9 @@ a{
 .c7{color: #4DB151;}/*(77,177,81)*/
 .c8{color: #DFDFDF;}/*(223,223,223)*/
 .c9{color: #FAAA00;}/*(250,170,0)*/
+.c10{color: #2C8CE0;}/*(44,140,224)*/
+.c11{color: #3389D4;}/*(51,137,212)*/
+
 
 /**
  * 边框圆角 

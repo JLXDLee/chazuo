@@ -24,6 +24,10 @@
 	padding-left: 32px;
 	background: url(../images/tab.png) no-repeat left center;
 }
+.astLevel{
+	padding-left: 36px;
+	background: url(../images/level.png) no-repeat left center;
+}
 .astTime{
 	position: absolute;
 	bottom: 0px;
@@ -86,8 +90,14 @@
 	left: 28px;
 	background-size: 100%;
 }
-.swButton:hover, .ecButton:hover{
+.swButton:hover {
 	background-color: #4DB151;
+}
+.ecButton:hover {
+	background-color: #2C8CE0;
+}
+#postComments:hover {
+	background-color: #3389D4;
 }
 .actComment{
 	width: 706px;
@@ -95,7 +105,7 @@
 	font-size: 16px;
 	line-height: 30px;
 	color: #34495D;
-	padding: 20px 16px 0;
+	padding: 18px 16px 0;
 	resize: none;
 	outline: none;
 	border: 1px solid #DFDFDF;
@@ -116,8 +126,8 @@
 .actcTips>span{
 	color: #FAAA00;
 }
-.shareToWx:before{
-	content: " ";
+/*.shareToWx:before*/.shareWxIcon{
+	/*content: " ";*/
 	position: absolute;
 	background: url(../images/wechat_blue.png) no-repeat center center;
 	top: 4px;
@@ -126,6 +136,11 @@
 	height: 46px;
 	border: 1px solid #34495D;
 	border-radius: 50%;
+}
+.shareToWx:hover>.shareWxIcon{
+	background: url(../images/wechat_white.png) no-repeat center center;
+	background-color: #4DB151;
+	border: 0;
 }
 .shareToWx{
 	position: absolute;
@@ -262,4 +277,13 @@
 	left: 415px;
 	padding-left: 32px;
 	background: url(../images/time.png) no-repeat left center;
+}
+#loadAllCmt{
+	font-size: 16px;
+	color: #DCDCE4;
+	display: none;
+	margin: 0px -40px;
+	padding-bottom: 14px;
+	background-color: #efeff4;
+}
 }
