@@ -237,6 +237,7 @@ a{
 	text-align: center;
 	color: #34495D;
 	background-color: #FFFFFF;
+	overflow: hidden;
 }
 .rmcActive {
     color: #3978C3;
@@ -268,21 +269,17 @@ a{
 	content: " ";
 }
 /*课程*/
-#classList{
-	padding: 0px 12px;
-}
 .clLine{
 	border-top: 1px solid #EFEFF4;
 	height: 0px;
+	margin-top: -1px;
 }
 .classItem{
 	border-bottom: 1px solid #EFEFF4;
-	padding: 14px 0px;
+	padding: 14px 12px;
 }
 .classItem:hover, .classItem:active{
-	-webkit-box-shadow: 0px 0px 5px rgba(248,248,253,0.5);
-	-moz-box-shadow: 0px 0px 5px rgba(248,248,253,0.5);
-	box-shadow: 0px 0px 5px rgba(248,248,253,0.5);
+	background-color: #f8f8fd;
 }
 .ciImg{
 	float: left;
@@ -406,6 +403,11 @@ a{
 	-moz-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
+}
+#search:hover {
+	-webkit-box-shadow: 0px 0px 5px rgba(151,151,189,0.5);
+	-moz-box-shadow: 0px 0px 5px rgba(151,151,189,0.5);
+	box-shadow: 0px 0px 5px rgba(151,151,189,0.5);
 }
 /**
  * 颜色
