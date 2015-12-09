@@ -136,8 +136,9 @@
 	height: 46px;
 	border: 1px solid #34495D;
 	border-radius: 50%;
+	cursor: pointer;
 }
-.shareToWx:hover>.shareWxIcon{
+.shareWxIcon:hover{
 	background: url(../images/wechat_white.png) no-repeat center center;
 	background-color: #4DB151;
 	border: 0;
@@ -148,7 +149,6 @@
 	padding-left: 58px;
 	line-height: 56px;
 	font-size: 14px;
-	cursor: pointer;
 }
 #postComments{
 	position: absolute;
