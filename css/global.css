@@ -275,8 +275,17 @@ a{
 	margin-top: -1px;
 }
 .classItem{
-	border-bottom: 1px solid #EFEFF4;
 	padding: 14px 12px;
+	position: relative;
+}
+.classItem:after {
+    content: " ";
+    position: absolute;
+    width: 336px;
+    height: 0;
+    border-bottom: 1px solid #EFEFF4;
+    left: 12px;
+    bottom: 0;
 }
 .classItem:hover, .classItem:active{
 	background-color: #f8f8fd;
