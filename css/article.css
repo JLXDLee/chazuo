@@ -19,6 +19,8 @@
 	font-size: 16px;
 	color: #B0BDC7;
 	position: relative;
+	height: 21px;
+	line-height: 21px;
 }
 .astTab{
 	padding-left: 32px;
