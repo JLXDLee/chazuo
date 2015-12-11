@@ -21,6 +21,7 @@
 	position: relative;
 	height: 21px;
 	line-height: 21px;
+	zoom: 1;
 }
 .astTab{
 	padding-left: 32px;
