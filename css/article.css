@@ -281,16 +281,17 @@
 .micFtr{
 	font-size: 16px;
 	color: #B0BDC7;
+	position: relative;
 }
 .micfTab{
-	padding-left: 32px;
+	padding-left: 28px;
 	background: url(../images/tab.png) no-repeat left center;
 }
 .micfTime{
 	position: absolute;
 	bottom: 0px;
 	left: 415px;
-	padding-left: 32px;
+	padding-left: 28px;
 	background: url(../images/time.png) no-repeat left center;
 }
 #loadAllCmt{
