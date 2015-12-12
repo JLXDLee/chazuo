@@ -130,7 +130,7 @@ a{
 }
 .log_reg:before{
 	width: 14px;
-	height: 24px;
+	height: 19px;
 	background: url(../images/signin.png) no-repeat left center;
 	background-size: 100%;
 }
@@ -139,7 +139,7 @@ a{
 }
 .client:before{
 	width: 14px;
-	height: 24px;
+	height: 19px;
 	background: url(../images/download.png) no-repeat left center;
 	background-size: 100%;
 }
@@ -148,7 +148,7 @@ a{
 }
 .wxmp:before{
 	width: 19px;
-	height: 24px;
+	height: 19px;
 	background: url(../images/wechat.png) no-repeat left center;
 	background-size: 100%;
 }
@@ -158,7 +158,7 @@ a{
 #log_reg, #client, #wxmp{
 	position: relative;
 	float: right;
-	font-size: 18px;
+	font-size: 14px;
 	color: #34495D;
 	border-left: 1px solid #EFEFF4;
 	cursor: pointer;
@@ -234,7 +234,7 @@ a{
 	height: 40px;
 	padding-top: 4px;
 	line-height: 40px;
-	font-size: 18px;
+	font-size: 14px;
 	text-align: center;
 	color: #34495D;
 	background-color: #FFFFFF;

@@ -24,18 +24,18 @@
 	zoom: 1;
 }
 .astTab{
-	padding-left: 32px;
+	padding-left: 26px;
 	background: url(../images/tab.png) no-repeat left center;
 }
 .astLevel{
-	padding-left: 36px;
+	padding-left: 30px;
 	background: url(../images/level.png) no-repeat left center;
 }
 .astTime{
 	position: absolute;
 	bottom: 0px;
 	right: 0px;
-	padding-left: 32px;
+	padding-left: 26px;
 	background: url(../images/time.png) no-repeat left center;
 }
 .atcImg{
@@ -284,14 +284,14 @@
 	position: relative;
 }
 .micfTab{
-	padding-left: 28px;
+	padding-left: 26px;
 	background: url(../images/tab.png) no-repeat left center;
 }
 .micfTime{
 	position: absolute;
 	bottom: 0px;
 	left: 415px;
-	padding-left: 28px;
+	padding-left: 26px;
 	background: url(../images/time.png) no-repeat left center;
 }
 #loadAllCmt{
