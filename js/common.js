@@ -1,4 +1,5 @@
 var cliend_url = "http://www.jlxdlee.site";	//配置客户端下载地址
+var enroll_url = "http://www.jlxdlee.site";	//报名
 $(function(){
 	onloadEvt();
 });
@@ -8,18 +9,18 @@ function onloadEvt(){
 		$(this).addClass("rmcActive").siblings().removeClass("rmcActive");
 	});
 	//客户端
-	createClientCode();
+	createClientCode('ccCodeImg', cliend_url, '90');
 	$("#client").mouseover(function(){
 		$("#clientCode").show();
 	}).mouseout(function(){
 		$("#clientCode").hide();
 	});
 }
-//生成客户端下载二维码
-function createClientCode(){
-	var qrcode = new QRCode(document.getElementById("ccCodeImg"), {
-		width: 90, //设置宽高
-		height: 90
+//生成二维码图片
+function createClientCode(id, url, size){
+	var qrcode = new QRCode(document.getElementById(id), {
+		width: size, //设置宽高
+		height: size
 	});
-	qrcode.makeCode(cliend_url);
+	qrcode.makeCode(url);
 }

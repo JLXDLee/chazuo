@@ -85,6 +85,32 @@
 	position: relative;
 	cursor: pointer;
 }
+#ecCode {
+	display: none;
+    position: absolute;
+    left: 22px;
+    top: -160px;
+    padding: 10px;
+    border: 1px solid #EFEFF4;
+    background-color: #ffffff;
+}
+#ecCode:before, #ecCode:after{
+	position: absolute;
+    content: " ";
+    border: 10px solid transparent;
+}
+#ecCode:before{
+	border-top-color: #EFEFF4;
+    left: 50%;
+    margin-left: -10px;
+    bottom: -20px;
+}
+#ecCode:after{
+	border-top-color: #fff;
+    left: 50%;
+    margin-left: -10px;
+    bottom: -19px;
+}
 .swButton:before{
 	content: " ";
 	position: absolute;
@@ -110,6 +136,9 @@
 }
 .ecButton:hover {
 	background-color: #2C8CE0;
+}
+.ecButton:hover>#ecCode{
+	display: block;
 }
 #postComments:hover {
 	background-color: #3389D4;
@@ -169,7 +198,7 @@
 	position: absolute;
 	top: 0;
 	right: 0;
-	width: 72px;
+	width: 104px;
 	height: 32px;
 	font-size: 16px;
 	line-height: 32px;

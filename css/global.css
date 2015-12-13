@@ -234,7 +234,8 @@ a{
 	height: 40px;
 	padding-top: 4px;
 	line-height: 40px;
-	font-size: 14px;
+	font-size: 16px;
+	font-weight: bold;
 	text-align: center;
 	color: #34495D;
 	background-color: #FFFFFF;
@@ -382,10 +383,10 @@ a{
 #clientCode {
     position: absolute;
     display: none;
-    padding: 18px;
+    padding: 15px;
     background-color: #fff;
     z-index: 9;
-    top: 70px;
+    top: 69px;
     left: -1px;
 	border: 1px solid #EFEFF4;
 }
