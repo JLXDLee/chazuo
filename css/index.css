@@ -7,12 +7,12 @@
 }
 .menu{
 	width: 752px;
-	height: 44px;
+	height: 46px;
 	overflow: hidden;
 }
 .menuBtn{
 	width: 68px;
-	height: 44px;
+	height: 46px;
 	float: right;
 	cursor: pointer;
 }
@@ -26,8 +26,8 @@
 .menuItem{
 	float: left;
 	width: 94px;
-	line-height: 44px;
-	font-size: 14px;
+	line-height: 46px;
+	font-size: 16px;
 	text-align: center;
 	position: relative;
 }
@@ -51,7 +51,7 @@
 	color: #3978C3;
 	position: relative;
 	border-bottom: 2px solid #3978C3;
-	line-height: 42px;
+	line-height: 44px;
 }
 .menuItem.active:after/*, .rmcActive:after*/ {
     content: " ";
