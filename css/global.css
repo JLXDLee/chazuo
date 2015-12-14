@@ -61,7 +61,7 @@ input,select {
 	list-style: none;
 }
 #container {
-	width: 1200px;
+	width: 1100px;
 	margin: 32px auto 100px;
 }
 header, footer{
@@ -88,7 +88,7 @@ a{
 	border-bottom: 1px solid #e1e1ef;
 }
 #header{
-	width: 1200px;
+	width: 1100px;
 	height: 100%;
 	margin: 0px auto;
 }
@@ -170,8 +170,8 @@ a{
 #search{
 	float: right;
 	position: relative;
-	margin: 17px 113px 17px 0px;
-	width: 418px;
+	margin: 17px 63px 17px 0px;
+	width: 368px;
 	height: 34px;
 	padding: 0px 16px;
 	border: 1px solid #dfdfdf;
@@ -180,7 +180,7 @@ a{
 	border-radius: 2px;
 }
 .hSearch{
-	width: 408px;
+	width: 358px;
 	height: 24px;
 	color: #34495D;
 	position: absolute;
@@ -194,7 +194,7 @@ a{
 	position: absolute;
 	cursor: pointer;
 	top: 6px;
-	left: 420px;
+	left: 370px;
 	width: 20px;
 	height: 24px;
 	background: url(../images/searching.png) no-repeat center center;
@@ -207,7 +207,7 @@ a{
  */
 #content{
 	float: left;
-	width: 820px;
+	width: 720px;
 }
 /**
  * 底部
@@ -278,6 +278,7 @@ a{
 .classItem{
 	padding: 14px 12px;
 	position: relative;
+	display: block;
 }
 .classItem:after {
     content: " ";
@@ -296,7 +297,6 @@ a{
 	display: block;
 	width: 144px;
 	height: 104px;
-	cursor: pointer;
 }
 .ciCtn{
 	position: relative;
@@ -309,7 +309,6 @@ a{
 	line-height: 21px;
 	max-height: 42px;
 	overflow: hidden;
-	cursor: pointer;
 	display: block;
 }
 .ciCtn{
@@ -367,7 +366,7 @@ a{
 	margin-top: 12px;
 }
 .loadedLine{
-	width: 322px;
+	width: 272px;
 }
 .loadedLine1{
 	width: 76px;

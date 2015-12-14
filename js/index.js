@@ -9,7 +9,7 @@ $(function(){
 	});
 	//导航滚动
 	var i = 1;
-	var c = l - 8;	//可点击次数
+	var c = l - 7;	//可点击次数
 	var ml = '0px';
 	$(".menuBtn.right").click(function(){
 		if(c <= 0){

@@ -1,7 +1,5 @@
 $(function(){
 	articleEvt();
-	//报名听课
-	createClientCode('ecCode', cliend_url, '120');
 });
 function articleEvt(){
 	//更多评论

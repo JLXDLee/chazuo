@@ -1,7 +1,7 @@
 @CHARSET "UTF-8";
 
 #content{
-	width: 740px;
+	width: 640px;
 	padding: 0px 40px;
 	background-color: #FFFFFF;
 	color: #3D3D3D;
@@ -42,7 +42,7 @@
 	margin-bottom: 24px;
 }
 .atcImg>img{
-	width: 740px;
+	width: 100%;
 	height: auto;
 }
 .actSection{
@@ -144,7 +144,7 @@
 	background-color: #3389D4;
 }
 .actComment{
-	width: 706px;
+	width: 606px;
 	height: 178px;
 	font-size: 16px;
 	line-height: 30px;
@@ -257,10 +257,11 @@
 	margin-left: -40px;
 }
 .miItem{
-	width: 772px;
+	width: 672px;
 	height: 135px;
 	padding: 30px 24px;
 	background-color: #FFFFFF;
+	display: block;
 }
 .miItem:hover, .miItem:active{
 	-webkit-box-shadow: 0px 0px 5px rgba(151,151,189,0.5);
@@ -271,7 +272,6 @@
 	float: left;
 	width: 220px;
 	height: 135px;
-	cursor: pointer;
 	display: block;
 }
 .miCtn{
@@ -287,7 +287,6 @@
 	display: block;
 	font-size: 18px;
 	color: #3D3D3D;
-	cursor: pointer;
 	height: 24px;
 	overflow: hidden;
 }
@@ -319,7 +318,7 @@
 .micfTime{
 	position: absolute;
 	bottom: 0px;
-	left: 415px;
+	left: 315px;
 	padding-left: 26px;
 	background: url(../images/time.png) no-repeat left center;
 }
