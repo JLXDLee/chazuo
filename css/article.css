@@ -313,14 +313,22 @@
 }
 .micfTab{
 	padding-left: 26px;
+<<<<<<< HEAD
 	background: url(../images/tab.png) no-repeat left center / auto 80%;
+=======
+	background: url(../images/tab.png) no-repeat left center;
+>>>>>>> 5d0da493ed93e0db564689dde2f230609bec944b
 }
 .micfTime{
 	position: absolute;
 	bottom: 0px;
 	left: 315px;
 	padding-left: 26px;
+<<<<<<< HEAD
 	background: url(../images/time.png) no-repeat left center / auto 80%;
+=======
+	background: url(../images/time.png) no-repeat left center;
+>>>>>>> 5d0da493ed93e0db564689dde2f230609bec944b
 }
 #loadAllCmt{
 	font-size: 16px;
@@ -330,6 +338,7 @@
 	padding-bottom: 14px;
 	background-color: #efeff4;
 	padding-top: 12px;
+<<<<<<< HEAD
 }
 /**
  * 弹窗相关CSS
@@ -509,4 +518,6 @@
 	text-align: center;
 	line-height: 162px;
 	color: #34495D;
+=======
+>>>>>>> 5d0da493ed93e0db564689dde2f230609bec944b
 }
