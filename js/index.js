@@ -1,7 +1,7 @@
 
 $(function(){
 	var l = $(".menuItem").length;	//导航菜单数量
-	$(".menuList").width(l * 180 + "px");
+	$(".menuList").width(l * 94 + "px");
 	//导航切换
 	$(".menuItem").click(function(){
 		var _s = $(this);
@@ -9,9 +9,12 @@ $(function(){
 	});
 	//导航滚动
 	var i = 1;
-	var c = l - 4;	//可点击次数
+	var c = l - 7;	//可点击次数
 	var ml = '0px';
 	$(".menuBtn.right").click(function(){
+		if(c <= 0){
+			return;
+		}
 		$(".menuList").css("margin-left", ml);
 		if(i == c){
 			$(this).css("display", "none");
@@ -21,7 +24,7 @@ $(function(){
 			$(".menuBtn.left").css("display", "block");
 			return;
 		}
-		ml = - i * 180 + "px";
+		ml = - i * 94 + "px";
 		$(".menuList").animate({
 			"marginLeft": ml
 		});
@@ -37,7 +40,7 @@ $(function(){
 			$(".menuBtn.right").css("display", "block");
 			return;
 		}
-		ml = parseInt($(".menuList").css("margin-left")) + 180 + "px";
+		ml = parseInt($(".menuList").css("margin-left")) + 94 + "px";
 		$(".menuList").animate({
 			"marginLeft": ml
 		});

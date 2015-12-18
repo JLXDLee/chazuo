@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+.input1{
+	padding: 0px 12px;
+	color: #3D3D3D;
+	border: 1px solid #DFDFDF;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	outline: none;
+}
+.input1:hover, .input1:focus{
+	/*-webkit-box-shadow: 0px 0px 5px rgba(61,61,61,0.5);
+	-moz-box-shadow: 0px 0px 5px rgba(61,61,61,0.5);
+	box-shadow: 0px 0px 5px rgba(61,61,61,0.5);*/
+	border-color: #3978C3;
+}
+.radio1{
+	width: 20px;
+	height: 20px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	border: 1px solid #DFDFDF;
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+}
+.radio1.checked:after{
+	content: " ";
+	width: 10px;
+	height: 10px;
+	background-color: #3978C3;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+.radio1:hover, .radio1:active{
+	border-color: #3978C3;
+}

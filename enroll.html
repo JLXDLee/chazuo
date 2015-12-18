@@ -10,11 +10,19 @@
 		<meta http-equiv="pragma" content="no-cache">
 		<meta http-equiv="expires" content="0">
 		<link rel="stylesheet" href="css/global.css" />
+		<link rel="stylesheet" href="css/common.css" />
 		<link rel="stylesheet" href="css/article.css" />
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/common.js"></script>
 		<script type="text/javascript" src="js/qrcode.js"></script>
 		<script type="text/javascript" src="js/article.js"></script>
+		<style>
+			.radio1{
+				top: 7px;
+				margin-left: 20px;
+				margin-right: 8px;
+			}
+		</style>
 
 	</head>
 
@@ -68,12 +76,15 @@
 							<div class="shareWxIcon"></div>
 							分享到微信
 						</div>
-						<div class="ecButton brds28">报名听课</div>
+						<div id="enrollClass" class="ecButton brds28">
+							<span>报名听课</span>
+							<span id="ecCode" class="brds3"></span>
+						</div>
 					</div>
 					<textarea class="actComment brds3" id="actComment" onchange="commentCount()" oninput="commentCount()" placeholder="欢迎在这里输入您的评论……"></textarea>
 					<div class="actcTips">
 						您还可以再输入<span>500</span>个字符
-						<div id="postComments" class="brds4">评论</div>
+						<div id="postComments" class="brds4">发布评论</div>
 					</div>
 					<ul class="commentList">
 						<li class="commentItem">
@@ -113,19 +124,19 @@
 						<div class="clear"></div>
 					</div>
 					<div class="mayInterested">可能感兴趣的其他文章</div>
-					<ul class="miList">
-						<li class="miItem brds2">
-							<a class="miImg brds3" href="article.html" target="_blank" style="background: url(images/index/3.jpg) no-repeat center;background-size: 100%;"></a>
+					<div class="miList">
+						<a class="miItem brds2" href="article.html" target="_blank">
+							<div class="miImg brds3" style="background: url(images/index/3.jpg) no-repeat center;background-size: 100%;"></div>
 							<div class="miCtn">
-								<a class="micTitle" href="article.html" target="_blank">天猫双11模式到底是赚了还是赔了</a>
+								<div class="micTitle">天猫双11模式到底是赚了还是赔了</div>
 								<div class="micCtn">我曾经跟某位教练交流，这位教练名头不小，曾是北京市游泳冠军。他告诉我，其实培训公司的服务全部由他们这些教练来提供这种……</div>
 								<div class="micFtr">
 									<div class="micfTab">互联网 • 金融</div>
 									<div class="micfTime">1天前</div>
 								</div>
 							</div>
-						</li>
-					</ul>
+						</a>
+					</div>
 					<div class="clear"></div>
 				</div>
 				<div id="rightNav">
@@ -133,60 +144,59 @@
 						<div class="rmClass1 rmcActive">线上课程</div>
 						<div class="rmClass2">线下课程</div>
 					</div>
-					<div class="clLine"></div>
-					<ul id="classList">
-						<li class="classItem">
-							<a class="ciImg brds3" href="enroll.html" target="_blank" style="background: url(images/index/4.jpg) no-repeat center;background-size: 100%;"></a>
+					<div id="classList">
+						<a class="classItem" href="enroll.html" target="_blank">
+							<div class="ciImg brds3" style="background: url(images/index/4.jpg) no-repeat center;background-size: 100%;"></div>
 							<div class="ciCtn">
-								<a class="cicTitle" href="enroll.html" target="_blank">首席微信官[南京一期]</a>
+								<div class="cicTitle">首席微信官[南京一期]</div>
 								<div class="cicCtn">
 									<span class="cicfTab">朱少锋</span>
 									<span class="cicfTime">#2015.11.30#</span>
 								</div>
 								<div class="cicFt"></div>
 							</div>
-						</li>
-						<li class="classItem">
-							<a class="ciImg brds3" href="enroll.html" target="_blank" style="background: url(images/index/5.jpg) no-repeat center;background-size: 100%;"></a>
+						</a>
+						<a class="classItem" href="enroll.html" target="_blank">
+							<div class="ciImg brds3" style="background: url(images/index/5.jpg) no-repeat center;background-size: 100%;"></div>
 							<div class="ciCtn">
-								<a class="cicTitle" href="enroll.html" target="_blank">新媒体品牌文案特训营[北京二期]</a>
+								<div class="cicTitle">新媒体品牌文案特训营[北京二期]</div>
 								<div class="cicCtn">
 									<span class="cicfTab">蒋东文</span>
 									<span class="cicfTime">#2015.11.30#</span>
 								</div>
 							</div>
-						</li>
-						<li class="classItem">
-							<a class="ciImg brds3" href="enroll.html" target="_blank" style="background: url(images/index/6.jpg) no-repeat center;background-size: 100%;"></a>
+						</a>
+						<a class="classItem" href="enroll.html" target="_blank">
+							<div class="ciImg brds3" style="background: url(images/index/6.jpg) no-repeat center;background-size: 100%;"></div>
 							<div class="ciCtn">
-								<a class="cicTitle" href="enroll.html" target="_blank">线上活动如何找准有特色的运营方式</a>
+								<div class="cicTitle">线上活动如何找准有特色的运营方式</div>
 								<div class="cicCtn">
 									<span class="cicfTab">朱少锋</span>
 									<span class="cicfTime">#2015.11.30#</span>
 								</div>
 							</div>
-						</li>
-						<li class="classItem">
-							<a class="ciImg brds3" href="enroll.html" target="_blank" style="background: url(images/index/7.jpg) no-repeat center;background-size: 100%;"></a>
+						</a>
+						<a class="classItem" href="enroll.html" target="_blank">
+							<div class="ciImg brds3" style="background: url(images/index/7.jpg) no-repeat center;background-size: 100%;"></div>
 							<div class="ciCtn">
-								<a class="cicTitle" href="enroll.html" target="_blank">如何通过精准内容选题，吸引</a>
+								<div class="cicTitle">如何通过精准内容选题，吸引</div>
 								<div class="cicCtn">
 									<span class="cicfTab">蒋东文</span>
 									<span class="cicfTime">#2015.11.30#</span>
 								</div>
 							</div>
-						</li>
-						<li class="classItem">
-							<a class="ciImg brds3" href="enroll.html" target="_blank" style="background: url(images/index/8.jpg) no-repeat center;background-size: 100%;"></a>
+						</a>
+						<a class="classItem" href="enroll.html" target="_blank">
+							<div class="ciImg brds3" style="background: url(images/index/8.jpg) no-repeat center;background-size: 100%;"></div>
 							<div class="ciCtn">
-								<a class="cicTitle" href="enroll.html" target="_blank">新媒体品牌文案特训营[南京一期]</a>
+								<div class="cicTitle">新媒体品牌文案特训营[南京一期]</div>
 								<div class="cicCtn">
 									<span class="cicfTab">蒋东文</span>
 									<span class="cicfTime">#2015.11.30#</span>
 								</div>
 							</div>
-						</li>
-					</ul>
+						</a>
+					</div>
 					<div id="loadMore1">
 						<span class="changeNext">换一换</span>
 					</div>
@@ -203,6 +213,84 @@
 				<span>0592-8885656</span>
 			</div>
 		</div>
+		<div id="dialogLayer">
+			<div id="dlBg"></div>
+			<div id="dlContainer">
+				<div id="dlClose">
+					<div class="dlClose"></div>
+				</div>
+				<div id="dlTitle">首席微信官 | 北京站</div>
+				<div id="dlContent"></div>
+			</div>
+		</div>
 	</body>
 
 </html>
+<script>
+	var loadUrl = "enrollPage.html";
+	//模拟支付成功、失败使用
+	var sof = 0;
+	$(function(){
+		//报名听课二维码
+		createClientCode('ecCode', cliend_url, '120');
+		//报名
+		$("#enrollClass").click(function(){
+			showDialog(loadUrl + " #enrollForm", formCallback);
+		});
+	});
+	//报名表单提交页面初始化
+	function formCallback(){
+		//单价
+		var price = Number($("#price").text());
+		//数量
+		var num = 1;
+		//总价
+		var totalPrice = price;
+		//性别选择
+		$(".radio1").click(function(){
+			var _s = $(this);
+			_s.addClass("checked").siblings().removeClass("checked");
+			//取性别值
+			var sex = _s.attr("value");
+		});
+		//数量+
+		$(".ppfa").click(function(){
+			num ++;
+			totalPrice = Number(num * price);
+			$(".ppfCount, #count").text(num);
+			$("#price").text(totalPrice)
+		});
+		//数量-
+		$(".ppfr").click(function(){
+			num --;
+			if(num > 0){
+				totalPrice = Number(num * price);
+				$(".ppfCount, #count").text(num);
+				$("#price").text(totalPrice)
+			} else {
+				num = 1;
+				$(".ppfCount, #count").text(1);
+				$("#price").text(price)
+			}
+		});
+		//支付
+		$(".payButton").click(function(){
+			showDialog(loadUrl + " #wxPay", wxCallback);
+			
+			//随机显示支付成功、失败页面
+			if(sof / 2 == 0){
+				setTimeout('showDialog(loadUrl + " #paySuccess")', 3000);
+			} else {
+				
+				setTimeout('showDialog(loadUrl + " #payFailed")', 3000);
+			}
+			sof ++;
+		});
+	}
+	//微信支付回调
+	function wxCallback(){
+		var wxPayUrl = "http://www.jlxdlee.site";
+		$(".epImg").attr("id", "wxCode");
+		createClientCode('wxCode', wxPayUrl, '240');
+	}
+</script>
