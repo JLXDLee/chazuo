@@ -70,15 +70,7 @@
 #banner{
 	width: 100%;
 	height: 380px;
-<<<<<<< HEAD
 	/*margin: 20px 0px;*/
-}
-#banner>img{
-	width: 100%;
-	height: 100%;
-=======
-	margin: 20px 0px;
->>>>>>> 5d0da493ed93e0db564689dde2f230609bec944b
 }
 #banner>img{
 	width: 100%;
@@ -147,20 +139,12 @@
 }
 .nicfTab{
 	padding-left: 26px;
-<<<<<<< HEAD
 	background: url(../images/tab_small.png) no-repeat left center;
-=======
-	background: url(../images/tab.png) no-repeat left center;
->>>>>>> 5d0da493ed93e0db564689dde2f230609bec944b
 }
 .nicfTime{
 	position: absolute;
 	bottom: 0px;
 	left: 315px;
 	padding-left: 26px;
-<<<<<<< HEAD
 	background: url(../images/time_small.png) no-repeat left center;
-=======
-	background: url(../images/time.png) no-repeat left center;
->>>>>>> 5d0da493ed93e0db564689dde2f230609bec944b
 }
