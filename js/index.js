@@ -1,5 +1,7 @@
-
 $(function(){
+	$("#logo").click(function(){
+		window.location.href = "index.html";
+	});
 	var l = $(".menuItem").length;	//导航菜单数量
 	$(".menuList").width(l * 94 + "px");
 	//导航切换
