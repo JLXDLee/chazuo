@@ -104,6 +104,7 @@ a{
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
+	cursor: pointer;
 }
 .log_reg, .client, .wxmp{
 	position: relative;
